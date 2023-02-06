@@ -1,0 +1,10 @@
+<p>cocktail-list-component works!</p>
+<ul class="list"> <li *ngFor="let cock of cocktailList">
+    <h4>nom de cocktail : {{cock.nom}}</h4>
+    <h4>prix du cocktail : {{cock.prix}}</h4>
+    <h4>Cocktail :</h4><img src="{{cock.image}}" alt="">
+
+    </li>
+</ul>
+
+<button (click)="send()">  cocktail  </button>
